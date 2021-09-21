@@ -5,14 +5,14 @@
     
     .titulo-principal
       .titulo-principal__numero
-        span 3
-      h1 Seguridad e infraestructura de <em>hardware</em> y <em>software</em>
+        span 7
+      h1 Valoración
 
 </template>
 
 <script>
 export default {
-  name: 'Tema3',
+  name: 'Tema7',
   data: () => ({
     // variables de vue
   }),

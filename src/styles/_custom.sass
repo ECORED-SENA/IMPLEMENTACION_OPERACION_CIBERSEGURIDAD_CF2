@@ -1,2 +1,187 @@
 .titulo-principal__numero
   background-color: #E01650
+.barra-avance__boton--regresar i
+  color: $color-sistema-texto
+.barra-avance__boton--regresar:hover span
+  color: #FFF !important
+
+.fila-amarillo1
+  background-color: #fff7e7 !important
+.fila-amarillo2
+  background-color: #ffebc0 !important
+.morado-2
+  background-color: #8F52F5 !important
+
+.linea-personalizada-1, .linea-personalizada-2
+  position: absolute
+.linea-personalizada-1
+  right: -8%
+  top: 6%
+.linea-personalizada-2
+  left: -7%
+  top: 87%
+
+.fondo-personalizado
+  background-image: url(../assets/curso/fondo-gris.jpg)
+  background-repeat: no-repeat
+  background-size: cover
+  border-top-left-radius: 55px
+  border-top-right-radius: 15px
+  border-bottom-right-radius: 55px
+  border-bottom-left-radius: 15px
+.fondo-personalizado-2
+  background-image: url(../assets/curso/fondo-rosa.jpg)
+  background-repeat: no-repeat
+  background-size: cover
+  border-top-left-radius: 55px
+  border-top-right-radius: 15px
+  border-bottom-right-radius: 55px
+  border-bottom-left-radius: 15px  
+
+.bloque-texto-g.color-secundario
+  border-top-left-radius: 55px
+  border-top-right-radius: 15px
+  border-bottom-right-radius: 55px
+  border-bottom-left-radius: 15px
+.bloque-texto-g__texto
+  background-color: #FFF
+  box-shadow: 2px 2px 10px 1px #42424261
+  border-top-left-radius: 55px
+  border-top-right-radius: 15px
+  border-bottom-right-radius: 55px
+  border-bottom-left-radius: 15px
+.bloque-texto-g.color-secundario  
+  border-top-right-radius: 15px
+  border-bottom-right-radius: 55px
+.bloque-texto-g__img  
+  border-top-left-radius: 55px
+  border-bottom-left-radius: 15px
+
+.slyder-a__bullets
+  display: none
+.slyder-a__btn--sigt, .slyder-a__btn--atrs
+  background-color: #FF93B2
+  border: 1px solid #E01650
+  width: 45px
+  height: 45px
+
+.tabs-c__tab:after
+  width: 2px
+  height: 23px
+  background-color: #500C75
+.tabs-c 
+  border: 1px solid #500C75
+  border-bottom-left-radius: 55px
+  border-bottom-right-radius: 55px
+.tabs-c__tab--active span
+  font-weight: bold
+.tabs-c__tab
+  border-bottom: 4px solid #FFDE95 
+
+.lista-acento-botones.lista-ul--color li > i:first-of-type
+  color: #E01650
+  font-size: 12px
+  margin-top: 2px
+
+.modal-centrado
+  margin: 0 auto
+  display: block
+  width: fit-content
+.modal-a__content
+  width: 40%
+  background-color: #FFB206  
+  border-top-left-radius: 55px
+  border-top-right-radius: 15px
+  border-bottom-right-radius: 55px
+  border-bottom-left-radius: 15px
+  
+figcaption
+  font-weight: 500
+  background-color: #fce9ee
+
+.tabla-a.border-diferentes tbody
+  border: 1px solid #500C75
+.tabla-a.border-diferentes td
+  border: 0.5px dashed #500C75
+
+.tabla-b tbody td
+  border: 1px dashed #500C75
+.tabla-b.tabla-2 th
+  padding: 10px 5px  
+.tabla-b.tabla-2 td
+  padding: 15px 10px
+
+
+@media screen and (max-width: 768px)
+  .modal-a__content
+    width: 90%
+
+
+// IMG HOVER NUMEROS -----------------------------------
+.content
+  position: relative
+  margin: auto
+  height: 233px
+
+.content .content-overlay
+  border-radius: 10px
+  background: rgba(224, 22, 80, 0.95)
+  position: absolute
+  height: 100%
+  left: 0
+  top: 0
+  bottom: 10%
+  right: 0
+  opacity: 0
+  -webkit-transition: all 0.4s ease-in-out 0s
+  -moz-transition: all 0.4s ease-in-out 0s
+  transition: all 0.4s ease-in-out 0s
+  border-top-left-radius: 55px
+  border-top-right-radius: 15px
+  border-bottom-right-radius: 55px
+  border-bottom-left-radius: 15px
+
+.content:hover .content-overlay
+  opacity: 1
+
+.content img
+  z-index: 0
+  object-fit: cover
+  object-position: center center
+  height: 100%
+  border-top-left-radius: 55px
+  border-top-right-radius: 15px
+  border-bottom-right-radius: 55px
+  border-bottom-left-radius: 15px
+  box-shadow: 2px 2px 10px 1px #42424261
+
+.tarjeta-details
+  position: absolute
+  text-align: center
+  padding-left: 1em
+  padding-right: 1em
+  width: 90%
+  top: 0%
+  left: 50%
+  opacity: 0
+  -webkit-transform: translate(-50%, -50%)
+  -moz-transform: translate(-50%, -50%)
+  transform: translate(-50%, -50%)
+  -webkit-transition: all 0.3s ease-in-out 0s
+  -moz-transition: all 0.3s ease-in-out 0s
+  transition: all 0.3s ease-in-out 0s
+
+.content:hover .tarjeta-details
+  top: 49%
+  opacity: 1
+
+.fadeIn-top
+  top: 20%
+
+@media screen and (max-width: 640px)
+  .content:hover .tarjeta-details
+    top: 40%;
+  .tarjeta-details 
+    width: 95% !important 
+  .content:hover .tarjeta-details
+    top: 49%  
