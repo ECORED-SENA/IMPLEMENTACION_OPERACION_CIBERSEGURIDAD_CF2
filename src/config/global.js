@@ -145,7 +145,7 @@ export default {
         ],
       },
       {
-        nombreRuta: 'tema3',
+        nombreRuta: 'tema8',
         icono: 'far fa-file-alt',
         numero: '8',
         titulo: 'Matriz de riesgos',

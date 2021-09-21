@@ -292,7 +292,7 @@
               .indicador--click(v-if="mostrarIndicador")  
             .row.justify-content-center
                 .col-md-5
-                  ModalA(:abrir-modal.sync="modal1")
+                  ModalA.modal-naranja(:abrir-modal.sync="modal1")
                     .row.justify-content-center
                       .col-md-3.mb-4.mb-md-0
                         figure
