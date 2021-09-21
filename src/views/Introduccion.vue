@@ -10,7 +10,7 @@
       h1 Introducción
     
     figure.mb-5(data-aos="fade")
-      img(src="@/assets/curso/banner-intro.jpg", alt="Introducción")
+      img(src="@/assets/curso/banner-intro.png", alt="Introducción")
 
     p(data-aos="fade") Una cordial bienvenida a este componente formativo, en el cual se podrán reconocer e identificar las acciones de análisis y valoración de riesgos y controles de ciberseguridad.
 

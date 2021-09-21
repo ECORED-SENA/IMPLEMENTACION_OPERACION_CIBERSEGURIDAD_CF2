@@ -75,11 +75,11 @@
         .tarjeta.color-primario.p-3
           .row.justify-content-around.align-items-center
             .col-4.col-sm-3.col-lg-2.px-4
-              img(src="@/assets/componentes/ej-02.svg")
+              img.px-md-2(src="@/assets/curso/tema1-1-cta.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
-                  p Afiance los aspectos más importantes de este punto, explorando conscientemente el recurso que aquí le presentamos; recuerde llevar registro en su libreta personal de apuntes. ¡Adelante! 
+                  p.mb-0 Afiance los aspectos más importantes de este punto, explorando conscientemente el recurso que aquí le presentamos; recuerde llevar registro en su libreta personal de apuntes. ¡Adelante! 
                 .col-sm-auto
                   a.boton.color-secundario(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
                     span Descargar

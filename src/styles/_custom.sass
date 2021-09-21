@@ -7,6 +7,11 @@
 .etiqueta
   font-weight: bold
   padding: 1px 2px 2px  
+italic
+  font-style: italic
+italic-strong
+  font-weight: bold
+  font-style: italic
 
 .fila-amarillo1
   background-color: #fff7e7 !important
@@ -18,6 +23,14 @@
   background-color: #8F52F5 !important
 .morado-3
   background-color: #B734FD !important  
+.gris-1
+  background-color: #ebe0fe !important
+.gris-2
+  background-color: #f4eefe !important   
+.morado-acordion
+  background-color: #e2d3fc    
+.rosado-acordion
+  background-color: #f7c5d3
 
 .linea-personalizada-1, .linea-personalizada-2
   position: absolute
@@ -52,6 +65,7 @@
   border-top-right-radius: 15px
   border-bottom-right-radius: 55px
   border-bottom-left-radius: 15px 
+  box-shadow: 2px 2px 10px 1px #42424261
 .fondo-morado2
   background-image: url(../assets/curso/fondo-morado2.jpg)
   background-repeat: no-repeat
@@ -59,7 +73,8 @@
   border-top-left-radius: 55px
   border-top-right-radius: 15px
   border-bottom-right-radius: 55px
-  border-bottom-left-radius: 15px       
+  border-bottom-left-radius: 15px   
+  box-shadow: 2px 2px 10px 1px #42424261    
 .fondo-naranja
   background-color: #ffebc0  
   border-left: 8px solid #FFB206
@@ -136,11 +151,21 @@
   border-top-right-radius: 15px
   border-bottom-right-radius: 55px
   border-bottom-left-radius: 15px  
-
+.modal-borde-tabla .modal-a__content
+  width: 80%
+  background-color: #FFF  
+  border: 4px solid #E01650
+  border-top-left-radius: 55px
+  border-top-right-radius: 15px
+  border-bottom-right-radius: 55px
+  border-bottom-left-radius: 15px  
   
 figcaption
   font-weight: 500
   background-color: #fce9ee
+figcaption.naranja
+  font-weight: 500
+  background-color: #ffde95  
 
 .tabla-a.border-diferentes tbody
   border: 1px solid #500C75
@@ -154,9 +179,38 @@ figcaption
 .tabla-b.tabla-2 td
   padding: 15px 10px
 
+.acordion .tarjeta.border-bottom
+  border-radius: 0px
+.acordion .acordeon__selected.tarjeta.border-bottom
+  border-radius: 20px  
+.acordion__accion__btn--b
+  border: 1px solid #500C75
+.acordion__accion__btn--b i    
+  color: #500C75
 
+.icono-morado i 
+  color: #8F52F5
 
+.cajon.color-secundario
+  background-color: #ffebc0
 
+.borde-acento-contenido
+  border: 4px solid #8F52F5
+  border-radius: 20px
+  background-color: #FFF
+.borde-acento-botones
+  border: 4px solid #E01650
+  border-radius: 20px
+  background-color: #FFF
+.borde-secundario
+  border: 4px solid #FFB206
+  border-radius: 20px
+  background-color: #FFF
+
+.img-infografica.color-secundario .img-infografica__item__dot:before, .img-infografica.color-secundario .img-infografica__item__dot:after
+  background-color: #e4e4e42e
+.img-infografica__item__dot:before
+  border: 1px solid #616161
 
 @media screen and (max-width: 768px)
   .modal-a__content

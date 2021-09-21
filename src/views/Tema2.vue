@@ -10,9 +10,23 @@
 
     p.mb-4(data-aos="fade") En la determinación de riesgos de ciberseguridad es importante comprender los conceptos de vulnerabilidad y amenaza, entendiendo que una o más amenazas pueden aprovechar una o más vulnerabilidades; generando riesgos en la confidencialidad, la integridad y la disponibilidad de la información, principios elementales de la seguridad de la información.
 
-    .row.justify-content-center.mb-4(data-aos="fade-down")
-      .col-md-10
-        img(src="@/assets/curso/aaa.png", alt="Infografia")
+    .row.justify-content-center.mb-5(data-aos="fade-down")
+      .col-md-10.fondo-personalizado.p-4.p-md-5
+        ImagenInfografica.color-secundario
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema2-infografia.svg', alt='Riesgos de ciberseguridad')
+
+          .tarjeta.borde-acento-contenido.p-3(x="38%" y="1.7%")
+            .h4.mb-2 Sistemas de información
+            p.mb-0 Pueden tener vulnerabilidades aprovechables por amenazas, y están expuestos a riesgos de ciberseguridad.
+          .tarjeta.borde-acento-botones.p-3(x="86.4%" y="60.6%")
+            .h4.mb-2 Amenazas
+            p.mb-0 Las amenazas siempre está presentes y en constante evolución.
+          .tarjeta.borde-secundario.p-3(x="19.7%" y="87.8%")
+            .h4.mb-2 Vulnerabiliades
+            p.mb-0 Las amenazas aprovechan las vulnerabilidades presentes en los sistemas de información.  
+
 
     p.mb-4(data-aos="fade") Para ampliar los conocimientos en lo referente a amenazas y vulnerabilidades, se debe explorar el recurso que se propone a continuación:    
 
@@ -289,6 +303,7 @@
               img(src='@/assets/curso/tema2-2-imagen2.svg', alt='imagen decorativa')  
             a.boton.color-acento-botones.indicador__container.text-white.text-center.modal-centrado(@click="modal1 = true")
               span Ver más
+              i.fas.fa-chevron-right
               .indicador--click(v-if="mostrarIndicador")  
             .row.justify-content-center
                 .col-md-5

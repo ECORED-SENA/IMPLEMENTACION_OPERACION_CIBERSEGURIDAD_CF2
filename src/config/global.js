@@ -4,7 +4,7 @@ export default {
       'Análisis, valoración de riesgos y controles de ciberseguridad',
     descripcionCurso:
       'A partir  del estudio de este componente formativo, el aprendiz estará en capacidad describir y aplicar las acciones de análisis y valoración de riesgos y controles de ciberseguridad; todo ello con base en métodos específicos de análisis de riesgos de seguridad. Adicionalmente, podrá establecer como resultado, el plan de tratamiento adecuado.',
-    imagenBannerPrincipal: require('@/assets/curso/banner-princiapal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/fondo-banner-principal.png'),
   },
   menuPrincipal: {

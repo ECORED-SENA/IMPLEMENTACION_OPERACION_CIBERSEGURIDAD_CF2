@@ -48,7 +48,7 @@
 
     .row.justify-content-center(data-aos="fade-down")
       .col-md-10
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5.mb-5
+        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-4.mb-5
           .bloque-texto-g__img(:style="{'background-image': `url(${require('@/assets/curso/tema8-1-cajon.jpg')})`}")
           .bloque-texto-g__texto.py-5.px-4
             .linea-personalizada-1
@@ -196,7 +196,8 @@
             .row
               .col-md-6
                 a.boton.color-acento-botones.indicador__container.text-white.text-center.modal-centrado(@click="modal1 = true")
-                  span Modal 1
+                  span Ver más
+                  i.fas.fa-chevron-right
                   .indicador--click(v-if="mostrarIndicador")  
                 .row.justify-content-center
                     .col-md-5
@@ -209,7 +210,8 @@
                             p.mb-0 Una vez se haya realizado el Plan de Tratamiento de Riesgos se debe comunicar a las partes interesadas, principalmente a los responsables de los activos de información y se debe dejar un registro de aceptación del plan de tratamiento de riesgos.
               .col-md-6
                 a.boton.color-acento-botones.indicador__container.text-white.text-center.modal-centrado(@click="modal2 = true")
-                  span Modal 2
+                  span Ver más
+                  i.fas.fa-chevron-right
                   .indicador--click(v-if="mostrarIndicador")  
                 ModalA.modal-borde(:abrir-modal.sync="modal2")
                   .row.justify-content-center
