@@ -68,7 +68,7 @@
 
     AcordeonC.mb-5(tipo="a" clase-tarjeta="tarjeta morado-acordion")
       .row.px-lg-5(titulo="Nmap (“mapeador de redes”)")
-        .col-md-6
+        .col-md-6.mb-md-0.mb-4
           figure
             img(src='@/assets/curso/tema4-tab1.png', alt='Nmap (“mapeador de redes”)')
           figcaption.naranja Nota. Tomado de https://acortar.link/nZi8tH  
@@ -79,7 +79,7 @@
             strong Nmap 
             | en auditorías de seguridad, muchos administradores de redes y sistemas lo encuentran útil para realizar tareas rutinarias, como puede ser el inventariado de la red, la planificación de actualización de servicios y la monitorización del tiempo que los equipos o servicios se mantiene activos.” Nmap.org (2021).
       .row.px-lg-5(titulo2="Wireshark")
-        .col-md-6
+        .col-md-6.mb-md-0.mb-4
           figure
             img(src='@/assets/curso/tema4-tab2.png', alt='WireShark')
           figcaption.naranja Nota. Tomado de https://acortar.link/OtEpu8 
@@ -88,7 +88,7 @@
             italic-strong WireShark 
             | prospera gracias a las contribuciones voluntarias de expertos en redes de todo el mundo y es la continuación de un proyecto iniciado por Gerald Combs en 1998.” WireShark.org (2021)
       .row.px-lg-5(titulo="OpenVAS")
-        .col-md-6
+        .col-md-6.mb-md-0.mb-4
           figure
             img(src='@/assets/curso/tema4-tab3.png', alt='OpenVAS')
           figcaption.naranja Nota. Tomado de https://acortar.link/P8p4Wj
@@ -96,7 +96,7 @@
           p “Es un escáner de vulnerabilidades con todas las funciones. Sus capacidades incluyen pruebas autenticadas y no autenticadas, varios protocolos industriales y de Internet de alto y bajo nivel, ajuste del rendimiento para escaneos a gran escala y un poderoso lenguaje de programación interno para implementar cualquier tipo de prueba de vulnerabilidad.
           p El escáner obtiene las pruebas para detectar vulnerabilidades de un feed que tiene un largo historial y actualizaciones diarias”.OpenVas.org (2021)
       .row.px-lg-5(titulo2="OWASP Zen Attack Proxy – ZAP")
-        .col-md-6
+        .col-md-6.mb-md-0.mb-4
           figure
             img(src='@/assets/curso/tema4-tab4.png', alt='OWASP Zen Attack Proxy – ZAP')
           figcaption.naranja Nota. Tomado de https://acortar.link/zZcD5Y
@@ -109,7 +109,7 @@
             italic software 
             | de código abierto, liderados por la comunidad, cientos de capítulos en todo el mundo, decenas de miles de miembros y organizando conferencias locales y globales.”  Owasp.org (2021)
       .row.px-lg-5(titulo="Nessus")
-        .col-md-6
+        .col-md-6.mb-md-0.mb-4
           figure
             img(src='@/assets/curso/tema4-tab5.png', alt='Nessus')
           figcaption.naranja Nota. Tomado de https://acortar.link/j7p45Y
@@ -118,7 +118,7 @@
             italic Tenable Community, 
             | y es ideal para educadores, estudiantes e individuos que inician sus carreras en ciberseguridad”.  Basado en tenable.com (2021)
       .row.px-lg-5(titulo2="Vega")
-        .col-md-6
+        .col-md-6.mb-md-0.mb-4
           figure
             img(src='@/assets/curso/tema4-tab6.png', alt='Vega')
           figcaption.naranja Nota. Tomado de https://acortar.link/5qALCU
@@ -136,7 +136,7 @@
             italic Windows
             | ." Subgraph.com/vega (2021)
       .row.px-lg-5(titulo2="Metasploit Framework")
-        .col-md-6
+        .col-md-6.mb-md-0.mb-4
           figure
             img(src='@/assets/curso/tema4-tab7.png', alt='Metasploit Framework')
           figcaption.naranja Nota. Tomado de https://acortar.link/Yvm4xz
@@ -154,7 +154,7 @@
             | proporciona un entorno de trabajo realmente impresionante.” Offensive-Security.com (2021)            
 
     .tarjeta--container.row.mb-5
-      .col-md.tarjeta.color-primario.p-5
+      .col-md.tarjeta.color-primario.p-md-5.p-4
         .row.justify-content-center.mb-4
           .col-8
             figure
@@ -164,7 +164,7 @@
           italic software 
           | para realizar pruebas de seguridad. “La plataforma de pruebas de penetración de Kali Linux contiene una amplia gama de herramientas y utilidades. Desde la recopilación de información hasta los informes finales, Kali Linux permite a los profesionales de la seguridad y de TI evaluar la seguridad de sus sistemas”. Kali.org (2021)
 
-      .col-md.tarjeta.color-acento-contenido.p-5
+      .col-md.tarjeta.color-acento-contenido.p-md-5.p-4
         .row.justify-content-center.text-white.mb-4
           .col-10
             figure

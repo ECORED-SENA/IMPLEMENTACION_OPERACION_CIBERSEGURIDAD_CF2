@@ -28,7 +28,7 @@
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-md-10.fondo-rosado
         .row.align-items-center.justify-content-center.py-md-4.p-4
-          .col-md-3.mb-md-0.mb-3
+          .col-md-3.col-9.mb-md-0.mb-3
             img.px-md-3(src='@/assets/curso/tema7-1-imagen.svg', alt='imagen decorativa') 
           .col-md-8
             p.mb-0 Consiste en el riesgo valorado antes de que se le haya aplicado un tratamiento o controles para su mitigación. También es denominado riesgo potencial.
@@ -56,7 +56,7 @@
     .row.justify-content-center(data-aos="fade-down")
       .col-md-10.fondo-rosado
         .row.align-items-center.justify-content-center.py-md-4.p-4
-          .col-md-2.mb-md-0.mb-3
+          .col-md-2.col-4.mb-md-0.mb-3
             img.px-md-4(src='@/assets/curso/tema7-1-cta.svg', alt='imagen decorativa') 
           .col-md-7.mb-md-0.mb-3
             h5.mb-0 Referencia de severidad del riesgo
@@ -160,6 +160,327 @@
     p.mb-4(data-aos="fade") Se debe conocer la referencia de evaluación de controles que el siguiente recurso tiene. Allí mismo, se debe ampliar el conocimiento en la determinación de diseños de control y ejecución de los controles. 
       strong ¡Adelante!
 
+    .row.mb-4
+      .titulo-numero-acento-botones 
+        .fondo-1-acento-botones
+          h3.mb-0 1
+      .row.bloque-borde-acento-botones.p-4.py-3
+        p.mt-4 Para comenzar, analice y comprenda esta tabla de referencia para la evaluación de controles.
+        .tabla-b.tabla-3.color-primario.mb-2
+          table  
+            thead.tabla-b__header 
+              tr
+                th(colspan="13")  
+                  h4.text-white.mb-0 Elementos para la evaluación del diseño de controles
+              tr
+                th.morado-2
+                  h5.text-white.mb-0 Asignación
+                th.morado-2
+                  h5.text-white.mb-0 Valor
+                th.morado-2
+                  h5.text-white.mb-0 Tipo
+                th.morado-2
+                  h5.text-white.mb-0 Valor    
+                th.morado-2
+                  h5.text-white.mb-0 Naturaleza 
+                th.morado-2
+                  h5.text-white.mb-0 Valor  
+                th.morado-2
+                  h5.text-white.mb-0 Frecuencia 
+                th.morado-2
+                  h5.text-white.mb-0 Valor 
+                th.morado-2
+                  h5.text-white.mb-0 Documentación 
+                th.morado-2
+                  h5.text-white.mb-0 Valor  
+                th.morado-2
+                  h5.text-white.mb-0 Evidencia / Soporte 
+                th.morado-2
+                  h5.text-white.mb-0 Funcionalidad 
+                th.morado-2
+                  h5.text-white.mb-0 Valor                 
+            tbody
+              tr.text-center.fila-amarillo2
+                td Asignado
+                td 30%
+                td Preventivo
+                td 10%
+                td Automático
+                td 20%
+                td Adecuada
+                td 10%
+                td Documentado
+                td 10%
+                td Actas de comité o actas de reuniones
+                td Adecuada
+                td 20%
+              tr.text-center.fila-amarillo1
+                td No Asignado
+                td 0%
+                td Detectivo
+                td 7%
+                td Desarrollo de TI
+                td 7%
+                td Inadecuada
+                td 0%
+                td No documentado
+                td 0%
+                td Archivos digitales 
+                td Inadecuada
+                td 0%  
+              tr.text-center.fila-amarillo2
+                td - -
+                td - -
+                td Correctivo
+                td 5%
+                td Manual
+                td 5%
+                td - -
+                td - -
+                td - -
+                td - -
+                td Correos corporativos
+                td - -
+                td - -
+              tr.text-center.fila-amarillo1
+                td - -
+                td - -
+                td - -
+                td 0%
+                td - -
+                td 0%
+                td - -
+                td - -
+                td - -
+                td - -
+                td Check list
+                td - -
+                td - -  
+              tr.text-center.fila-amarillo2
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td Formatos
+                td - -
+                td - -    
+              tr.text-center.fila-amarillo1
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td Informes de gestión
+                td - -
+                td - -  
+              tr.text-center.fila-amarillo2
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td Políticas organizacionales - procedimientos
+                td - -
+                td - -  
+              tr.text-center.fila-amarillo1
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td Registros financieros
+                td - -
+                td - -  
+              tr.text-center.fila-amarillo2
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td Registros administrativos
+                td - -
+                td - -
+              tr.text-center.fila-amarillo1
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td Registros operativos
+                td - -
+                td - -
+              tr.text-center.fila-amarillo2
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td - -
+                td Registros digitales
+                td - -
+                td - -            
+        figcaption Nota. Tomado de Modelo MSPI. MinTic. (2016).
+
+    .row.justify-content-between
+      .col-md-6.cajas-numeros
+        .row.mb-4
+          .titulo-numero-acento-contenido 
+            .fondo-1-acento-contenido
+              h3.mb-0 2
+          .row.bloque-borde-acento-contenido.justify-content-center.align-items-center.py-3
+            .col-md-4.col-6.mt-3
+              img(src='@/assets/curso/tema7-2-ico1.svg', alt='imagen decorativa')  
+            .col-md-8.mt-3
+              p.mb-0 Una vez inventariados y evaluados los controles, se debe determinar el diseño del control, la ejecución, la solidez individual, la importancia del control y la solidez del conjunto del control.
+      .col-md-6.cajas-numeros
+        .row.mb-4
+          .titulo-numero-acento-botones 
+            .fondo-1-acento-botones
+              h3.mb-0 3
+          .row.bloque-borde-acento-botones.justify-content-center.align-items-center.py-3
+            .col-md-4.col-6.mt-3
+              img(src='@/assets/curso/tema7-2-ico2.svg', alt='imagen decorativa')  
+            .col-md-8.mt-3
+              p.mb-0 El Diseño del control es la sumatoria de la 
+                italic-strong Asignación del control con el Tipo de control (Preventivo, Correctivo) + la  Naturaleza del control, la Frecuencia y la Funcionalidad.
+    
+    .row.mb-4
+      .titulo-numero-acento-contenido 
+        .fondo-1-acento-contenido
+          h3.mb-0 4
+      .row.bloque-borde-acento-contenido.p-4.py-3
+        p.mt-4 Analice, ahora, esta tabla referencia para determinar la ejecución, solidez e importancia de controles.
+        .tabla-b.tabla-3.color-primario.mb-2
+          table  
+            thead.tabla-b__header 
+              tr
+                th(colspan="11")  
+                  h4.text-white.mb-0 Ejecución, solidez e importancia del control
+              tr
+                th.morado-2
+                  h5.text-white.mb-0 N°
+                th.morado-2
+                  h5.text-white.mb-0 Ejecución
+                th.morado-2
+                  h5.text-white.mb-0 Descripción
+                th.morado-2
+                  h5.text-white.mb-0 Valor    
+                th.morado-2
+                  h5.text-white.mb-0 Solidez 
+                th.morado-2
+                  h5.text-white.mb-0 Valor  
+                th.morado-2
+                  h5.text-white.mb-0 Límite inferior 
+                th.morado-2
+                  h5.text-white.mb-0 Límite superior 
+                th.morado-2
+                  h5.text-white.mb-0 Importancia 
+                th.morado-2
+                  h5.text-white.mb-0 Descripción  
+                th.morado-2
+                  h5.text-white.mb-0 Valor                
+            tbody
+              tr.text-center.fila-amarillo2
+                td.gris-3 1
+                td Fuerte
+                td Control que se ejecuta cada vez que se desarrolla la actividad.
+                td 5
+                td Fuerte
+                td 5
+                td 16
+                td 25
+                td Muy Importante
+                td Si el control garantiza cero errores.
+                td 5
+              tr.text-center.fila-amarillo1
+                td.gris-3 2
+                td Moderado
+                td Control que se aplica en momentos determinados.
+                td 3
+                td Moderado
+                td 3
+                td 9
+                td 15
+                td Importante
+                td Si el control garantiza un buen desempeño.
+                td 3  
+              tr.text-center.fila-amarillo2
+                td.gris-3 3
+                td Débil
+                td Control que se efectúa cuando se requiere.
+                td 1
+                td Débil
+                td 1
+                td 1
+                td 5
+                td Poco Importante
+                td Si lo que aporta el control no es significativo.
+                td 1
+        figcaption Nota. Tomado de Modelo MSPI. MinTic. (2016).
+
+    .row.justify-content-between
+      .col-md-6.cajas-numeros
+        .row.mb-4
+          .titulo-numero-acento-botones 
+            .fondo-1-acento-botones
+              h3.mb-0 5
+          .row.bloque-borde-acento-botones.justify-content-center.align-items-center.py-3
+            .col-md-4.col-6.mt-3
+              img(src='@/assets/curso/tema7-2-ico3.svg', alt='imagen decorativa')  
+            .col-md-8.mt-3
+              p.mb-0 La ejecución del control se determina manualmente, mientras que la 
+                strong Solidez individual 
+                | será igual al 
+                strong diseño del control 
+                | por la ejecución del control.
+      .col-md-6.cajas-numeros
+        .row.mb-4
+          .titulo-numero-acento-contenido 
+            .fondo-1-acento-contenido
+              h3.mb-0 6
+          .row.bloque-borde-acento-contenido.justify-content-center.align-items-center.py-3
+            .col-md-4.col-6.mt-3
+              img(src='@/assets/curso/tema7-2-ico4.svg', alt='imagen decorativa')  
+            .col-md-8.mt-3
+              p.mb-0 Así entonces: 
+              p Solidez individual del control
+              p.mb-0.resaltado-caja.py-2.px-4
+                strong Si = Diseño del control X Ejecución del control
 
     Separador
 
@@ -173,7 +494,7 @@
      .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-md-10.fondo-rosado
         .row.align-items-center.justify-content-center.py-md-4.p-4
-          .col-md-3.mb-md-0.mb-3
+          .col-md-3.col-9.mb-md-0.mb-3
             img.px-md-3(src='@/assets/curso/tema7-3-imagen.svg', alt='imagen decorativa') 
           .col-md-8
            h5 Solidez del conjunto de control, Sc = (solidez individual del control + Importancia) / 3
@@ -184,12 +505,12 @@
       .row.px-lg-5(titulo="División sobre tres")
         .col-lg-9
           p Se divide sobre tres (3) teniendo en cuenta los valores de referencia que se han utilizado.
-        .col-lg-3
+        .col-lg-3.col-8
           img.px-md-4(src="@/assets/curso/tema7-3-tab1.svg", alt="División sobre tres")
       .row.px-lg-5(titulo="Coherencia con la realidad")
         .col-lg-9
           p Es importante que en cada método de valoración o medición establecido en la organización se determine que, el mismo, sea coherente y pueda representar lo mejor posible la realidad.
-        .col-lg-3
+        .col-lg-3.col-8
           img.px-md-4(src="@/assets/curso/tema7-3-tab2.svg", alt="Coherencia con la realidad")    
       .row.px-lg-5(titulo="Referencia")    
         p Esta es la referencia para determinar la solidez del conjunto de controles:
@@ -243,7 +564,7 @@
       .row.px-lg-5(titulo="Solidez del conjunto de controles")
         .col-lg-9
           p Cuando se aplican varios controles en el tratamiento de un riesgo, el promedio de la Solidez del conjunto de control de los controles aplicados, determina la Solidez del conjunto de controles para la disminución de la probabilidad e/o impacto.
-        .col-lg-3
+        .col-lg-3.col-8
           img.px-md-4(src="@/assets/curso/tema7-3-tab4.svg", alt="Solidez del conjunto de controles")  
       .row.px-lg-5(titulo="Aplicación de controles a riesgos")      
         .titulo-sexto.color-acento-botones

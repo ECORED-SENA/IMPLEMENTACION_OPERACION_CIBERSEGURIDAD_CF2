@@ -157,7 +157,7 @@
     .row.justify-content-center(data-aos="fade-down")
       .col-md-10.fondo-personalizado-2.p-md-5.p-4
         .row
-          .col-lg-7.mb-4.mb-md-0.px-md-4(data-aos="fade-right")
+          .col-lg-7.mb-0.px-md-4.py-md-0.px-3.py-5(data-aos="fade-right")
             p El plan de tratamiento de riesgos se debe construir considerando los siguientes aspectos:
             ul.lista-ul--color.lista-acento-botones
               li.mb-0 
@@ -194,7 +194,7 @@
             figure.mb-4
               img(src='@/assets/curso/tema8-2-imagen2.svg', alt='imagen decorativa')  
             .row
-              .col-md-6
+              .col-6
                 a.boton.color-acento-botones.indicador__container.text-white.text-center.modal-centrado(@click="modal1 = true")
                   span Ver más
                   i.fas.fa-chevron-right
@@ -203,19 +203,19 @@
                     .col-md-5
                       ModalA.modal-borde(:abrir-modal.sync="modal1")
                         .row.justify-content-center
-                          .col-md-3.mb-4.mb-md-0
+                          .col-md-3.col-7.mb-4.mb-md-0
                             figure
                               img(src='@/assets/curso/tema8-2-modal1.svg', alt='imagen decorativa')
                           .col-md-8
                             p.mb-0 Una vez se haya realizado el Plan de Tratamiento de Riesgos se debe comunicar a las partes interesadas, principalmente a los responsables de los activos de información y se debe dejar un registro de aceptación del plan de tratamiento de riesgos.
-              .col-md-6
+              .col-6
                 a.boton.color-acento-botones.indicador__container.text-white.text-center.modal-centrado(@click="modal2 = true")
                   span Ver más
                   i.fas.fa-chevron-right
                   .indicador--click(v-if="mostrarIndicador")  
                 ModalA.modal-borde(:abrir-modal.sync="modal2")
                   .row.justify-content-center
-                    .col-md-3.mb-4.mb-md-0
+                    .col-md-3.col-8.mb-4.mb-md-0
                       figure
                         img(src='@/assets/curso/tema8-2-modal2.svg', alt='imagen decorativa')
                     .col-md-8

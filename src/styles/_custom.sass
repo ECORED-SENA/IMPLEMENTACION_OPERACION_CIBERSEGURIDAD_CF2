@@ -27,6 +27,8 @@ italic-strong
   background-color: #ebe0fe !important
 .gris-2
   background-color: #f4eefe !important   
+.gris-3
+  background-color: #f3edff !important   
 .morado-acordion
   background-color: #e2d3fc    
 .rosado-acordion
@@ -178,6 +180,10 @@ figcaption.naranja
   padding: 10px 5px  
 .tabla-b.tabla-2 td
   padding: 15px 10px
+.tabla-b.tabla-3 th
+  padding: 10px 5px  
+.tabla-b.tabla-3 td
+  padding: 7px  
 
 .acordion .tarjeta.border-bottom
   border-radius: 0px
@@ -212,9 +218,109 @@ figcaption.naranja
 .img-infografica__item__dot:before
   border: 1px solid #616161
 
+
+.bloque-borde-acento-botones
+  border: 5px solid #E01650
+  border-top-left-radius: 55px
+  border-top-right-radius: 15px
+  border-bottom-right-radius: 55px
+  border-bottom-left-radius: 15px 
+.bloque-borde-acento-contenido
+  border: 5px solid #8F52F5
+  border-top-left-radius: 55px
+  border-top-right-radius: 15px
+  border-bottom-right-radius: 55px
+  border-bottom-left-radius: 15px 
+
+.titulo-numero-acento-botones
+  height: 100%
+  position: relative
+  padding-top: 25px
+  display: flex
+  flex-direction: column
+  flex-wrap: wrap
+  align-content: center
+  justify-content: center
+.fondo-1-acento-botones  
+  margin: 0 auto
+  border: 4px solid #E01650
+  width: 56px
+  height: 58px
+  border-radius: 50%
+  position: absolute
+  left: 50%
+.titulo-numero-acento-botones h3
+  position: absolute
+  left: 50%
+  top: 0
+  transform: translateX(-50%)
+  margin: 0 auto
+  color: #FFF
+  font-size: 23px
+  text-align: center
+  background-color: #E01650
+  border: 5px solid #FFF
+  border-radius: 50%
+  width: 50px
+  height: 50px
+  display: flex
+  flex-direction: column
+  flex-wrap: nowrap
+  align-content: center
+  justify-content: center
+
+.titulo-numero-acento-contenido
+  height: 100%
+  position: relative
+  padding-top: 25px
+  display: flex
+  flex-direction: column
+  flex-wrap: wrap
+  align-content: center
+  justify-content: center
+.fondo-1-acento-contenido  
+  margin: 0 auto
+  border: 4px solid #8F52F5
+  width: 56px
+  height: 58px
+  border-radius: 50%
+  position: absolute
+  left: 50%
+.titulo-numero-acento-contenido h3
+  position: absolute
+  left: 50%
+  top: 0
+  transform: translateX(-50%)
+  margin: 0 auto
+  color: #FFF
+  font-size: 23px
+  text-align: center
+  background-color: #8F52F5
+  border: 5px solid #FFF
+  border-radius: 50%
+  width: 50px
+  height: 50px
+  display: flex
+  flex-direction: column
+  flex-wrap: nowrap
+  align-content: center
+  justify-content: center  
+
+p.resaltado-caja
+  background-color: #fbe7ed
+  border-radius: 50px
+
+@media (min-width: 768px)
+  .col-md-6.cajas-numeros
+    width: 49%
 @media screen and (max-width: 768px)
   .modal-a__content
     width: 90%
+  .modal-naranja .modal-a__content
+    width: 90%
+  .modal-borde .modal-a__content
+    width: 90%
+  
 
 
 // IMG HOVER NUMEROS -----------------------------------
@@ -247,7 +353,7 @@ figcaption.naranja
 .content img
   z-index: 0
   object-fit: cover
-  object-position: center center
+  object-position: left center
   height: 100%
   border-top-left-radius: 55px
   border-top-right-radius: 15px
@@ -279,9 +385,9 @@ figcaption.naranja
   top: 20%
 
 @media screen and (max-width: 640px)
+  .content
+    height: 270px
   .content:hover .tarjeta-details
-    top: 40%;
+    top: 55%;
   .tarjeta-details 
     width: 95% !important 
-  .content:hover .tarjeta-details
-    top: 49%  

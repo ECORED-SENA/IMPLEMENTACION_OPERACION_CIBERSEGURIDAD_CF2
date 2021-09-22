@@ -300,7 +300,7 @@
       .col-md-10
         .tarjeta.color-primario.p-3
           .row.justify-content-around.align-items-center
-            .col-4.col-sm-3.col-lg-2.px-4
+            .col-5.col-sm-3.col-lg-2.px-4
               img.px-md-2(src="@/assets/curso/tema3-3-cta.svg")
             .col
               .row.justify-content-between.align-items-center
@@ -308,7 +308,7 @@
                   p.mb-0 Afiance los aspectos más importantes de este punto, explorando conscientemente el recurso que aquí le presentamos; recuerde llevar registro en su libreta personal de apuntes. 
                     strong ¡Adelante! 
                 .col-sm-auto
-                  a.boton.color-secundario(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-secundario(:href="obtenerLink('/downloads/Infografa_Interconexion_redes_seguridad_perimetral.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 

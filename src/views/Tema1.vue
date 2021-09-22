@@ -23,7 +23,7 @@
     p.mb-4(data-aos="fade") En la recolección de información es importante tener claridad en algunos conceptos que orientan dicho proceso. A continuación, se presentan los más destacados, para asimilarlos mejor se recomienda llevar registro de ellos en la libreta de apuntes personal: 
   
     .row.justify-content-center(data-aos="fade-down")
-      .col-md-10.fondo-personalizado.p-5
+      .col-md-10.fondo-personalizado.p-md-5.py-5.px-3
         .row
           .col-md-6.mb-4
             .content  
@@ -74,14 +74,14 @@
       .col-md-10
         .tarjeta.color-primario.p-3
           .row.justify-content-around.align-items-center
-            .col-4.col-sm-3.col-lg-2.px-4
+            .col-5.col-sm-3.col-lg-2.px-4
               img.px-md-2(src="@/assets/curso/tema1-1-cta.svg")
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   p.mb-0 Afiance los aspectos más importantes de este punto, explorando conscientemente el recurso que aquí le presentamos; recuerde llevar registro en su libreta personal de apuntes. ¡Adelante! 
                 .col-sm-auto
-                  a.boton.color-secundario(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.boton.color-secundario(:href="obtenerLink('/downloads/Infografia_Tecnicas_Recoleccion_mas_usuales.pdf')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 

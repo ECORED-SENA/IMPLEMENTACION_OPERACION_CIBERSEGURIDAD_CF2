@@ -26,7 +26,7 @@
             .titulo-segundo.mb-4(data-aos="fade-right")
               .h3 Inventario de activos y evaluación de impacto de riesgos
             p.mb-4 Estudie este punto, a profundidad, en el Anexo. Analice, uno a uno, los elementos conceptuales y operativos que allí se muestran y, de ser posible, tome nota en su libreta personal de apuntes.
-            a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank" type="application/pdf")
+            a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Infografia_Inventario_activos_evaluacion_impacto_riesgos.pdf')" target="_blank" type="application/pdf")
               span Descargar
               i.fas.fa-file-download
 

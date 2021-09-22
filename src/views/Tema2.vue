@@ -265,7 +265,7 @@
     .row.justify-content-center(data-aos="fade-down")
       .col-md-10.fondo-personalizado-2.p-md-5.p-4
         .row
-          .col-lg-7.mb-4.mb-md-0.px-md-4(data-aos="fade-right")
+          .col-lg-7.mb-0.px-md-4.py-md-0.py-5.px-3(data-aos="fade-right")
             p Las características que se deben considerar para realizar un plan de tratamiento de riesgos son:
             ul.lista-ul--color.lista-acento-botones
               li.mb-0 
@@ -309,7 +309,7 @@
                 .col-md-5
                   ModalA.modal-naranja(:abrir-modal.sync="modal1")
                     .row.justify-content-center
-                      .col-md-3.mb-4.mb-md-0
+                      .col-md-3.col-7.mb-4.mb-md-0
                         figure
                           img(src='@/assets/curso/tema2-2-ico.svg', alt='imagen decorativa')
                       .col-md-8
