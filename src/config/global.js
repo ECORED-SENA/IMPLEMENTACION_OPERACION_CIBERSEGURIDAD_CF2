@@ -365,6 +365,28 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
+      {
+        nombre: 'Joaquín Patiño Cerón',
+        cargo: 'Experto temático',
+        centro:
+          'Centro de Teleinformática y Producción Industrial <br>Regional Cauca',
+      },
+      {
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Diseñador instruccional',
+        centro: 'Centro Agropecuario La Granja <br>Regional Tolima',
+      },
+      {
+        nombre: 'Andrés Felipe Velandia Espitia',
+        cargo: 'Revisor metodológico y pedagógico',
+        centro: 'Centro de Diseño y Metrología <br>Regional Distrito Capital ',
+      },
+      {
+        nombre: 'Jhon Jairo Rodríguez Pérez',
+        cargo: 'Diseñador y evaluador instruccional',
+        centro:
+          'Centro para la Industria de la Comunicación Gráfica <br>Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -403,7 +425,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',
       },
       {
-        nombre: ' ',
+        nombre: 'María Camila Ovalle Ospina',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura <br>Regional Santander',

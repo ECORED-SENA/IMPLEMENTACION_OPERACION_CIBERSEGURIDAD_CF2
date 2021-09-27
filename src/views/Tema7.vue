@@ -636,14 +636,15 @@
               .tarjeta.color-primario.fondo-morado1
                 .text-white.p-4
                   h3.text-center Su determinación
-                  p La determinación del riesgo residual se realiza a partir de que un control disminuye la probabilidad o impacto de un riesgo.
+                  p.text-center La determinación del riesgo residual se realiza a partir de que un control disminuye la probabilidad o impacto de un riesgo.
           .col-md-6.mb-lg-0(data-aos="fade-left")
             .tarjeta-avatar
               img(src='@/assets/curso/tema7-4-tarjeta2.svg' alt='AvatarTop')
               .tarjeta.color-acento-contenido.fondo-morado2
                 .text-white.p-4
                   h3.text-center ¿Qué debe haberse hecho?
-                  p Para determinar riesgos, es importante que se haya realizado un adecuado inventario, evaluación de controles y aplicación de los mismos a los riesgos del catálogo de riesgos, según corresponda.
+                  p.text-center Para determinar riesgos, es importante que se haya realizado un adecuado inventario, evaluación de controles y aplicación de los mismos a los riesgos del catálogo de riesgos, según corresponda.
+                  p.text-center Una vez que se tengan los riesgos residuales se deben aplicar actividades de tratamiento para aquellos que como resultado, dieron críticos, altos o muy altos, según se considere.
 
     .row.justify-content-center.mb-4(data-aos="fade-down")
       .col-md-10.fondo-rosado.text-center.py-md-4.px-md-5.p-4

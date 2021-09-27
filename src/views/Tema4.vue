@@ -30,25 +30,25 @@
             ul.px-md-3.lista-ul--color.lista-acento-botones
               li.mb-0 
                 i.fas.fa-square
-                | Nmap (“mapeador de redes”).
+                italic Nmap (“mapeador de redes”).
               li.mb-0 
                 i.fas.fa-square
-                | Wireshark.
+                italic Wireshark.
               li.mb-0 
                 i.fas.fa-square
-                | OpenVAS.
+                italic OpenVAS.
               li.mb-0 
                 i.fas.fa-square
-                | OWA SP Zen Attack Proxy – ZAP. 
+                italic OWA SP Zen Attack Proxy – ZAP. 
               li.mb-0 
                 i.fas.fa-square
-                | Nessus.
+                italic Nessus.
               li.mb-0 
                 i.fas.fa-square
-                | Vega.
+                italic Vega.
               li.mb-0 
                 i.fas.fa-square
-                | Mesploit Framework.   
+                italic Mesploit Framework.   
             ul.mb-2.lista-ul--color
               li.mb-0 
                 i.fas.fa-play
@@ -56,10 +56,10 @@
             ul.mb-0.px-md-3.lista-ul--color.lista-acento-botones
               li.mb-0 
                 i.fas.fa-square
-                | Kali Linux OS.
+                italic Kali Linux OS.
               li.mb-0 
                 i.fas.fa-square
-                | Parrot OS.                     
+                italic Parrot OS.                     
           .col-lg-6.mb-4.mb-md-0(data-aos="fade-left")
             figure
               img(src='@/assets/curso/tema4-imagen.svg', alt='imagen decorativa')  
@@ -152,6 +152,8 @@
             | , hasta herramientas de recopilación de información de red y complementos de vulnerabilidad web. 
             italic Metasploit Framework 
             | proporciona un entorno de trabajo realmente impresionante.” Offensive-Security.com (2021)            
+
+    p.mb-4(data-aos="fade") También existen sistemas operativos enfocados a seguridad digital, los cuales contienen una serie de herramientas de seguridad informática para las revisiones de ciberseguridad, entre los más populares están:
 
     .tarjeta--container.row.mb-5
       .col-md.tarjeta.color-primario.p-md-5.p-4

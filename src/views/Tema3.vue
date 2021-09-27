@@ -69,33 +69,50 @@
           p La virtualización conecta los servidores físicos de un proveedor de servicios en cualquier ubicación geográfica. Luego, divide y extrae los recursos, como el almacenamiento, para ponerlos a disposición de los usuarios, prácticamente en cualquier lugar donde haya conexión a Internet. Debido a que la infraestructura en la nube es a menudo pública, normalmente se conoce como una nube pública.” (IBM, 2021)
         .col-lg-5
           img(src="@/assets/curso/tema3-1-tab2.png", alt="Infraestructura de la nube")  
-      .row.px-lg-5(titulo="Principales características de las  infraestructuras")
+      .row.px-lg-5(titulo="Principales características de las infraestructuras")
         .col-lg-7
           ul.lista-ul--color.lista-acento-botones.mb-0
             li.mb-0 
               i.fas.fa-square
-              | Composición por elementos de hardware y software.
+              p.mb-0 Composición por elementos de 
+                italic hardware 
+                | y 
+                italic software.
             li.mb-0 
               i.fas.fa-square
-              | Comunicación por servicios de red basados hardware y software. 
+              p.mb-0 Comunicación por servicios de red basados 
+                italic hardware 
+                | y 
+                italic software. 
             li.mb-0 
               i.fas.fa-square
-              | Segmentación de zonas, que pueden ser campus o red de usuarios e invitados, Demilitarized Zone - DMZ; bases de datos, servidores.
+              p.mb-0 Segmentación de zonas, que pueden ser campus o red de usuarios e invitados, 
+                italic Demilitarized Zone - DMZ; 
+                | bases de datos, servidores.
             li.mb-0 
               i.fas.fa-square
-              | Alta Disponibilidad en componentes, principalmente en los componentes de red, servidores de aplicación, storage y energía.
+              p.mb-0 Alta Disponibilidad en componentes, principalmente en los componentes de red, servidores de aplicación, 
+                italic storage 
+                | y energía.
             li.mb-0 
               i.fas.fa-square
-              | Virtualización; Implementación de múltiples servidores virtuales en hiper visores tales como; VMware, Proxmox, XenServer, Citrix, Hyper-v, ESX.
+              p.mb-0 Virtualización; Implementación de múltiples servidores virtuales en hiper visores tales como; 
+                italic VMware, Proxmox, XenServer, Citrix, Hyper-v, ESX.
             li.mb-0 
               i.fas.fa-square
-              | Implementación de Servidores de aplicación web y servicios; File.
+              p.mb-0 Implementación de Servidores de aplicación web y servicios; 
+                italic File.
             li.mb-0 
               i.fas.fa-square
-              | Transfer Protocol - FTP, Sistema de Nombres de Dominio DNS.
+              p.mb-0 
+                italic Transfer Protocol - FTP, 
+                | Sistema de Nombres de Dominio 
+                italic DNS.
             li.mb-0 
               i.fas.fa-square
-              | Sistemas ERP, BI, entre otros.            
+              p.mb-0 Sistemas 
+                italic ERP, BI, 
+                | entre otros.            
         .col-lg-5
           img(src="@/assets/curso/tema3-1-tab3.png", alt="Principales características de las  infraestructuras")       
       .row.px-lg-5(titulo="Infraestructura y seguridad")
@@ -115,7 +132,8 @@
               | Direccionamiento par el cumplimiento de la legislación aplicable en relación a las operaciones de la infraestructura tecnológica.
             li.mb-0 
               i.fas.fa-square
-              | Protección de dispositivos finales, hosts.
+              p.mb-0 Protección de dispositivos finales, 
+                italic hosts.
             li.mb-0 
               i.fas.fa-square
               | Protección criptográfica.  
@@ -181,7 +199,8 @@
                 i.fas.fa-square
                 p.mb-0 
                   italic-strong Storage:   
-                  | sistemas de almacenamiento en red, network attached storage - nas. 
+                  | sistemas de almacenamiento en red, 
+                  italic network attached storage - nas. 
               li.mb-0 
                 i.fas.fa-square
                 p.mb-0 
@@ -295,6 +314,8 @@
           p.mb-0 Hablar de interconexiones de redes y seguridad perimetral, es referirse a las conexiones de red entre los diferentes dispositivos, de acuerdo con los fundamentos de red o 
             italic networking, 
             | incluyendo los dispositivos de seguridad perimetral. 
+    
+    p.mb-4(data-aos="fade") Para una mejor comprensión de este punto, se debe estudiar atentamente la imagen animada que se muestra en pantalla (ver figura1) y tomar nota de los aspectos que ella explica:
 
     .row.justify-content-center(data-aos="fade-down")
       .col-md-10

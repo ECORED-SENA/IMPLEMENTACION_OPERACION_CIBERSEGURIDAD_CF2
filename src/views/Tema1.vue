@@ -123,7 +123,9 @@
       .row
         .col-md-6.mb-4.mb-md-0.px-md-5
           h4 Registro de datos
-          p Consiste en el proceso de recopilar los datos o información obtenida, cuando se aplican las técnicas de recolección de información. Este es un elemento importante que puede ser aplicado tanto en papel y archivos físicos, como en medios digitales, tales como: documentos de procesadores de texto, registros multimedia (imagen, audio, video), aplicaciones de software y bases de datos digitales.
+          p Consiste en el proceso de recopilar los datos o información obtenida, cuando se aplican las técnicas de recolección de información. Este es un elemento importante que puede ser aplicado tanto en papel y archivos físicos, como en medios digitales, tales como: documentos de procesadores de texto, registros multimedia (imagen, audio, video), aplicaciones de 
+            italic software 
+            | y bases de datos digitales.
         .col-md-6
           figure
             img(src='@/assets/curso/tema1-2-slider3.png', alt='Registro de datos')       
