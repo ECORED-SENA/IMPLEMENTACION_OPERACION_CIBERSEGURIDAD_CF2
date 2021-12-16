@@ -342,13 +342,6 @@ export default {
       tipo: 'Página web',
       link: 'https://subgraph.com/vega/documentation/about-vega/index.en.html',
     },
-    {
-      texto:
-        'Tenable. (2021). Tenable for education, Instructor / Student guide',
-      tipo: 'Página web',
-      link:
-        'https://static.tenable.com/marketing/whitepapers/Guide-Tenable-for-Education.pdf',
-    },
   ],
   creditos: {
     liderEquipo: [
